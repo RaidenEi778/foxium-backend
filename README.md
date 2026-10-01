@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32899553/README.md)
 <div align="center">
 
 # 🦊 Foxium Backend

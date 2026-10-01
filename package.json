@@ -1,0 +1,33 @@
+{
+  "name": "foxium-backend",
+  "version": "1.0.0",
+  "description": "Official REST API backend for the Foxium learning platform — auth, courses, homework, gamified points, leaderboard and admin tools.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": "Foxium",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js",
+    "lint": "node --check src/server.js"
+  },
+  "keywords": [
+    "foxium",
+    "education",
+    "rest-api",
+    "express",
+    "postgresql"
+  ],
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "pg": "^8.12.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
